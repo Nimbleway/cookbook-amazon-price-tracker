@@ -36,6 +36,19 @@ If missing: direct the user to https://git-scm.com
 
 ## Step 2: Clone the repo
 
+Check whether the repo is already cloned locally:
+
+```bash
+ls cookbook-amazon-price-tracker
+```
+
+**If the directory exists** — navigate into it and pull the latest:
+```bash
+cd cookbook-amazon-price-tracker
+git pull
+```
+
+**If it does not exist** — clone it:
 ```bash
 git clone https://github.com/Nimbleway/cookbook-amazon-price-tracker
 cd cookbook-amazon-price-tracker
